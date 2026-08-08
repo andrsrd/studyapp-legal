@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — StudyApp</title>
+<meta name="description" content="Help for StudyApp: reporting a post, blocking someone, deleting your account, known issues, and how to reach a human.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f6f6f4;
+    --ink: #16181d;
+    --ink-secondary: #4a4f5a;
+    --ink-tertiary: #6f7480;
+    --rule: #e2e2df;
+    --accent: #2c5f4f;
+    --accent-soft: #eef4f1;
+    --warn-soft: #fdf3e6;
+    --warn-rule: #e6c9a0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --surface: #1d2026;
+      --ink: #eef0f3;
+      --ink-secondary: #b4bac4;
+      --ink-tertiary: #878e9a;
+      --rule: #2c3039;
+      --accent: #7fc4ac;
+      --accent-soft: #1b2723;
+      --warn-soft: #2a2318;
+      --warn-rule: #5c4a2c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 0 20px 96px;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.62 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 44rem; margin: 0 auto; }
+  header { padding: 48px 0 8px; }
+  h1 { font-size: 2rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 4px; }
+  .app { font-size: 1.05rem; color: var(--ink-secondary); margin: 0 0 2px; }
+  h2 {
+    font-size: 1.3rem; line-height: 1.3; letter-spacing: -0.01em;
+    margin: 48px 0 12px; padding-top: 24px; border-top: 1px solid var(--rule);
+  }
+  h3 { font-size: 1.05rem; margin: 32px 0 8px; }
+  p, ul, ol { margin: 0 0 16px; }
+  ul, ol { padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  strong { font-weight: 600; }
+  .contact {
+    background: var(--accent-soft); border-radius: 12px;
+    padding: 18px 20px 4px; margin: 24px 0;
+  }
+  .contact .addr { font-size: 1.2rem; font-weight: 600; margin: 0 0 12px; }
+  .safety {
+    background: var(--warn-soft); border: 1px solid var(--warn-rule);
+    border-radius: 10px; padding: 14px 18px; margin: 20px 0;
+  }
+  .safety p:last-child { margin-bottom: 0; }
+  .issue {
+    background: var(--surface); border-radius: 10px;
+    padding: 16px 18px; margin: 0 0 16px;
+  }
+  .issue h3 { margin: 0 0 8px; font-size: 1rem; }
+  .issue p:last-child { margin-bottom: 0; }
+  .q { font-weight: 600; margin-bottom: 4px; }
+  .faq p.a { margin-bottom: 20px; color: var(--ink-secondary); }
+  .faq p.a strong { color: var(--ink); }
+  footer {
+    margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--rule);
+    font-size: 0.92rem; color: var(--ink-secondary);
+  }
+  @media (max-width: 480px) {
+    body { font-size: 16px; padding: 0 16px 72px; }
+    h1 { font-size: 1.65rem; }
+    h2 { font-size: 1.18rem; margin-top: 40px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <p class="app">StudyApp</p>
+  <h1>Support</h1>
+</header>
+
+<p>StudyApp is an iPhone app for tracking study sessions and sharing them with friends. Log a session with the timer, tag it to a course, record your grades, and see how the hours relate to the results.</p>
+
+<p>This page covers the things people most often need. If what you need is not here, email us — a person reads it.</p>
+
+<h2>Get in touch with a human</h2>
+
+<div class="contact">
+  <p class="addr"><a href="mailto:andersrodeik@gmail.com">andersrodeik@gmail.com</a></p>
+  <ul>
+    <li><strong>General questions, bugs, feature requests:</strong> we reply within <strong>2 working days</strong>.</li>
+    <li><strong>Reports about another user, or anything about someone's safety:</strong> we act within <strong>24 hours</strong>.</li>
+    <li><strong>Privacy requests</strong> (a copy of your data, deletion, corrections): we reply within 30 days, usually much sooner. See the <a href="privacy-policy.html">privacy policy</a>.</li>
+  </ul>
+</div>
+
+<p>When you email about a bug, it helps a lot if you say which iPhone you have, which iOS version, and what you were doing when it happened. You do not have to — a one-line "the timer did a weird thing" is still worth sending.</p>
+
+<p>If you are on the TestFlight beta, you can also shake your phone or use the <strong>Send Beta Feedback</strong> option in TestFlight, and a screenshot comes with it automatically.</p>
+
+<h2>Reporting a post</h2>
+
+<p>If you see something in your feed that shouldn't be there:</p>
+
+<ol>
+  <li>Tap the <strong>⋯</strong> button in the top-right corner of the post.</li>
+  <li>Choose <strong>Report post…</strong></li>
+  <li>Pick the reason that fits best:
+    <ul>
+      <li>Spam or scam</li>
+      <li>Harassment or bullying</li>
+      <li>Inappropriate content</li>
+      <li>Self-harm or dangerous behaviour</li>
+      <li>Something else</li>
+    </ul>
+  </li>
+  <li>If you also want to stop seeing that person entirely, tick <strong>Also block this person</strong> on the same screen.</li>
+  <li>Tap <strong>Send report</strong>.</li>
+</ol>
+
+<p><strong>What happens next.</strong> The report goes straight to us. We review every one, and we act on reports within 24 hours. If the content breaks the rules we remove it, and if the account is the problem we suspend it — a suspended account can no longer be found, friended, or seen by anyone.</p>
+
+<p>You will not be told what we decided about a specific report, and the person you reported is never told who reported them.</p>
+
+<p><strong>We do not ask you to explain in your own words.</strong> The reason list is fixed on purpose: a moderation queue is not a good place for people to write about each other, and a fixed list is faster for us to act on. If there is context we genuinely need, email <a href="mailto:andersrodeik@gmail.com">andersrodeik@gmail.com</a> and describe it there.</p>
+
+<div class="safety">
+  <p><strong>If someone is in danger</strong>, please do not rely on us. Contact the emergency services (112 in Norway and across the EU). If you are worried about someone hurting themselves, Mental Helse's helpline in Norway is <strong>116 123</strong>, open around the clock.</p>
+</div>
+
+<h2>Blocking someone</h2>
+
+<p>Blocking is immediate and works <strong>both ways</strong>: you stop seeing their posts and they stop seeing yours.</p>
+
+<p><strong>To block:</strong></p>
+
+<ol>
+  <li>Tap the <strong>⋯</strong> button on any of their posts.</li>
+  <li>Choose <strong>Block [name]</strong> and confirm.</li>
+</ol>
+
+<p>The person is never told that you blocked them.</p>
+
+<p>Blocking works even if you are offline — the block applies on your phone straight away and is sent to our server as soon as you have a connection.</p>
+
+<p><strong>To unblock:</strong></p>
+
+<ol>
+  <li>Go to the <strong>Me</strong> tab.</li>
+  <li>Tap <strong>Blocked accounts</strong>.</li>
+  <li>Tap <strong>Unblock</strong> next to the person.</li>
+</ol>
+
+<p>Unblocking <strong>needs an internet connection</strong>. If you are offline, the app will tell you plainly that nothing was changed and the person is still blocked — it will never claim to have unblocked someone when it has not.</p>
+
+<h2>Deleting your account</h2>
+
+<ol>
+  <li>Go to the <strong>Me</strong> tab.</li>
+  <li>Scroll to the bottom and tap <strong>Delete account</strong>.</li>
+  <li>Confirm.</li>
+</ol>
+
+<p><strong>What this deletes:</strong> your profile, your study sessions, pauses, distraction taps and focus ratings, your courses and terms, your grades, all of your posts, and your photo files on our servers. Your posts disappear from your friends' feeds. Then a scheduled job on our server removes your login record, which is the last step and the one the app itself is not allowed to do — normally within about 75 minutes, and always within 24 hours.</p>
+
+<p><strong>Photos take about two minutes longer than everything else, and here is why.</strong> Your image files are deleted from our storage immediately, and from that moment nobody can be given a link to them. But photos are delivered through a caching network, so an image that a friend had <em>already opened</em> can keep loading on their phone for a short while afterwards. We measured it on the live service: the longest was <strong>102 seconds</strong>. Nobody who had not already opened it can reach it at all.</p>
+
+<p><strong>This cannot be undone.</strong> There is no recovery and no grace period. If you sign in again with the same email afterwards, the app will refuse until the deletion has fully finished, and then you will get a brand-new empty account.</p>
+
+<p><strong>Two things are deliberately kept:</strong></p>
+
+<ul>
+  <li><strong>Reports.</strong> If you reported someone, or someone reported you, that record survives. A repeat-abuse pattern that disappears when the account is deleted would make the reporting system useless.</li>
+  <li><strong>Blocks that other people made against you.</strong> Those records belong to them, not to you.</li>
+</ul>
+
+<p><strong>Deleting the account does not automatically wipe this phone.</strong> After deletion the app may still hold local rows until you relaunch it — the app will tell you if that happens. To be certain nothing is left on the device, delete the app from your Home screen as well.</p>
+
+<h3>Deleting one thing instead of everything</h3>
+
+<ul>
+  <li><strong>A grade:</strong> go to <strong>Me</strong>, tap the course, open the grade, and tap <strong>Delete this grade</strong>.</li>
+  <li><strong>A session:</strong> you can delete a session from the summary screen that appears right after you finish it. <strong>Once you close that screen, there is no way to delete that single session in this version of the app.</strong> If you want a specific session gone, email <a href="mailto:andersrodeik@gmail.com">andersrodeik@gmail.com</a> and we will delete it for you. A proper per-session delete is the first thing on the list for the next update.</li>
+</ul>
+
+<h2>Signing out vs. deleting</h2>
+
+<p>These are not the same thing and the difference matters:</p>
+
+<ul>
+  <li><strong>Sign out</strong> disconnects the app from your account. <strong>Your data stays on the phone.</strong> That is on purpose — if you studied on a plane and had not synced yet, signing out must not throw that work away.</li>
+  <li><strong>Delete account</strong> removes your data from our servers permanently.</li>
+</ul>
+
+<p>If you hand the phone to someone else, sign out <strong>and</strong> delete the app.</p>
+
+<h2>Common questions</h2>
+
+<div class="faq">
+
+<p class="q">Do I need an account?</p>
+<p class="a">No. The timer, sessions, courses and grades all work fully offline with no account at all. Signing in is what turns on syncing (so your data survives a reinstall or a new phone) and friends.</p>
+
+<p class="q">How do I sign in?</p>
+<p class="a">Type your email address, and we send you a code. There is no password.</p>
+
+<p class="q">Can my friends see my grades?</p>
+<p class="a">Only if you post a grade. Your grades, sessions and photos are private to you at the database level — friends cannot read them even if they try. When you share, the app copies a small summary into a post, and that copy is what your friends see. Details are in the <a href="privacy-policy.html">privacy policy</a>.</p>
+
+<p class="q">How do friends find me?</p>
+<p class="a">By typing your handle <strong>exactly</strong>. Set one from <strong>Me → Your handle</strong>. There is no browsing, no suggestions, and no partial-match search — nobody can stumble across you.</p>
+
+<p class="q">I finished a session and now there's a screen asking for a photo and a rating. What is that?</p>
+<p class="a">That is the summary screen. Saving it posts the session to your profile, where your friends can see it — that is how sharing works, and there is no separate share button. If you want to keep that one to yourself, tick <strong>keep private</strong> before saving. If you dismiss the screen without saving, nothing is posted at all.</p>
+
+<p class="q">Do my photos carry my location?</p>
+<p class="a">No. Every photo is re-encoded on your phone before it is stored or uploaded, which removes the GPS coordinates, the device model and the capture time.</p>
+
+<p class="q">I deleted something with a photo in it. Is the photo really gone?</p>
+<p class="a">Yes. The file is deleted from our storage straight away, and from that moment no new link to it can be created — so nobody who had not already opened it can reach it. The one honest detail: photos are delivered through a caching network, so an image a friend had already loaded can keep showing on their phone for up to about two minutes afterwards. We measured it; the longest was 102 seconds.</p>
+
+<p class="q">Does the app block distracting apps?</p>
+<p class="a">Not in this version. It does not monitor which apps you use either — it cannot. The distraction counter only records the times you tapped the button yourself.</p>
+
+<p class="q">Why did my session stop at 8 hours?</p>
+<p class="a">Sessions are capped at 8 hours. If you forget to stop one, it is trimmed to that cap rather than running forever, and the app tells you it did so.</p>
+
+<p class="q">My deadline alert never appeared.</p>
+<p class="a">Check that notifications are allowed: <strong>Settings → StudyApp → Notifications</strong>. The app warns you when you start a deadline session if reminders are switched off. Your logged time is correct either way — the alert is a nudge, not the thing that stops the timer.</p>
+
+</div>
+
+<h2>Known issues</h2>
+
+<p>These are real, we know about them, and we are working on them. We would rather list them here than have you think your phone is broken.</p>
+
+<div class="issue">
+  <h3>1. The sign-in code lands in your junk folder.</h3>
+  <p>The sign-in code is sent from an automated address, and mail providers sometimes treat it as spam — Gmail and Outlook are the usual culprits. If the code has not arrived within a minute, check junk or spam. Marking it as "not junk" once usually fixes it for future codes. If it is nowhere at all, email <a href="mailto:andersrodeik@gmail.com">andersrodeik@gmail.com</a> and we will sort it out.</p>
+</div>
+
+<div class="issue">
+  <h3>2. After signing out, you may still see your own posts until you sign in again.</h3>
+  <p>Signing out does not erase anything from the phone. Your own data — including posts you have already made — stays in the app's local database and can still appear on screen. This is deliberate, not a leak: wiping the device at sign-out would destroy any studying you logged offline that had not synced yet, and we would rather show you your own old data than throw away your work. Nobody else can see it, and it is not sent anywhere under a different account. Signing back in restores the normal view. To clear it completely, delete the app.</p>
+</div>
+
+<div class="issue">
+  <h3>3. After deleting your account, the app may keep trying to sync and logging errors.</h3>
+  <p>Once your account is gone, the app on your phone may keep attempting to reach the server for a little while and quietly record errors when it cannot. Nothing is being uploaded and no data is at risk — the server has already refused the account. Force-quitting and relaunching the app clears it. Deleting the app clears it for good.</p>
+</div>
+
+<h2>Privacy</h2>
+
+<p>The full privacy policy is here: <strong><a href="privacy-policy.html">privacy-policy.html</a></strong></p>
+
+<p>The short version: your data is stored in the EU, sessions and grades and photos are private to you by default, there is no advertising or analytics of any kind, and you can delete everything from inside the app.</p>
+
+<footer>
+  StudyApp · Anders Roed, sole trader, Norway · <a href="mailto:andersrodeik@gmail.com">andersrodeik@gmail.com</a> · <a href="privacy-policy.html">Privacy policy</a>
+</footer>
+
+</main>
+</body>
+</html>
